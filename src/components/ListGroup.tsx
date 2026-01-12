@@ -1,4 +1,4 @@
-function ListGroup(props) {
+function ListGroup(props: any) {
   return (
     <div className="person">
       <h1>List</h1>

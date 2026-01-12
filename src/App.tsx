@@ -13,7 +13,7 @@ function App() {
 
   console.log(userInfo);
 
-  const handleInput = (e) => {
+  const handleInput = (e: any) => {
     const { name, value } = e.target;
     setUserInfo({
       ...userInfo,
@@ -21,7 +21,7 @@ function App() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
   };
 
